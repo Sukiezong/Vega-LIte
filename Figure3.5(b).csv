@@ -1,0 +1,5 @@
+item,Adapter,Transformer
+Meta-MT-0,21.21,0.00
+Fine Turing on Task,20.95,20.33
+Classical Fine-Tune Baseline,23.48,20.83
+Meta-MT,24.18,24.70
