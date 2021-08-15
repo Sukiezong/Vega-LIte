@@ -1,0 +1,7 @@
+Methods,Exact Match (EM),F1 score
+RoBERTa large,86.00,88.94
+"+ CRQDA (unans, =0.7)",86.39,89.31
+"+ CRQDA (unans, =0.5)",86.43,89.50
+"+ CRQDA (unans, =0.3)",86.26,89.35
++ CRQDA (ans),86.22,89.30
++ CRQDA (ans+unans),86.26,89.38
