@@ -1,0 +1,4 @@
+Domain,F1 score on Our model,F1 score on GLMP model
+Navigation,8.8,6.3
+Weather,11.0,4.7
+Schedule,42.7,17.6
