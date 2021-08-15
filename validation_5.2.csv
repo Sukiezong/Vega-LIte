@@ -1,6 +1,6 @@
 Classifier,Accuracy on IID Data (IMDb),Accuracy on OOD Data (SST-2)
 Avg.BoW,86,78
-Avg. w2v,85,68
+Avg.w2v,85,68
 ConvNet w2v,90.5,83
 LSTM w2v,90,64
 BERT Base,91,86
