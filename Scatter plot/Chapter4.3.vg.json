@@ -1,0 +1,60 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+    "data": { "url": "https://raw.githubusercontent.com/Sukiezong/Vega-LIte/main/Figure3.5(b).csv" },
+    "title": { "text": "BLEU vs Model Architecture and Learning Approach", "fontSize": 15 },
+    "width": 400,
+    "height": 400,
+    "layer": [
+        { 
+            "mark": { "type": "point", "tooltip": { "content": "data" } },
+            "encoding": {
+                "x": {
+                    "field": "Adapter",
+                    "type": "quantitative",
+                    "axis": { "title": "BLEU scores on Adapter model","titleFontSize":15 }
+                },
+                "y": {
+                    "field": "Transformer",
+                    "type": "quantitative",
+                    "axis": { "title": "BLEU scores on Transformer model","titleFontSize":15 }
+                },
+                "color": { "field": "item", "type": "nominal" },
+                "fill": { "field": "item", "type": "nominal" },
+                "shape": { "field": "item", "type": "nominal" },
+                "size": { "value": 200 },
+                "opacity": { "value": 0.7 }
+            }
+        },
+        {
+            "mark": { "type": "rule", "color": "lightgray", "strokeDash": [8, 8] },
+            "encoding": {
+                "y": { "value": 400 },
+                "x": { "value": 0 },
+                "y2": { "value": 0 },
+                "x2": { "value": 400 }
+            }
+        },
+        {
+            "mark": {
+                "type": "text", "align": "center",
+                "baseline": "middle",
+		"dy": -30,
+                "dy": -17
+            },
+            "encoding": {
+                "x": {
+                    "field": "Adapter",
+                    "type": "quantitative",
+                    "axis": { "title": "BLEU scores on Adapter model" }
+                },
+                "y": {
+                    "field": "Transformer",
+                    "type": "quantitative",
+                    "axis": { "title": "BLEU scores on Transformer model" }
+                },
+                "text": { "field": "item" }
+            }
+        }
+    ]
+}
