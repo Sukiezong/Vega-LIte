@@ -1,0 +1,12 @@
+Methods,X-axis,Y-axis
+RBMT,FA=FromAll,0.45
+RBMT,EFA=EachFromAll,0.44
+SMT,FA=FromAll,0.8
+SMT,EFA=EachFromAll,0.925
+SMT,EFA RS=EachFromAll Rescored,0.08
+LSTM,FA=FromAll,0.6
+LSTM,EFA=EachFromAll,0.5
+LSTM,EFA RS=EachFromAll Rescored,0.1
+Trans,FA=FromAll,0.45
+Trans,EFA=EachFromAll,0.435
+Trans,EFA RS=EachFromAll Rescored,2.12
