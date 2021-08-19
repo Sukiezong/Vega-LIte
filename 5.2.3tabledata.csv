@@ -1,0 +1,13 @@
+Methods,X-axis,Y-axis
+Positive,"English Training (Total: 22,857 )",7204
+Neutral,"English Training (Total: 22,857 )",12668
+Negative,"English Training (Total: 22,857 )",2985
+Positive,"English Test (Total: 5,714)",1818
+Neutral,"English Test (Total: 5,714)",3157
+Negative,"English Test (Total: 5,714)",739
+Positive,"Korean Training (Total: 24,026)",4787
+Neutral,"Korean Training (Total: 24,026)",14212
+Negative,"Korean Training (Total: 24,026)",5027
+Positive,"Korean Test (Total: 6,006)",1180
+Neutral,"Korean Test (Total: 6,006)",3583
+Negative,"Korean Test (Total: 6,006)",1243
