@@ -1,0 +1,13 @@
+Methods,X-axis,Y-axis
+Positive,English Training,7204
+Neutral,English Training,12668
+Negative,English Training,2985
+Positive,English Test,1818
+Neutral,English Test,3157
+Negative,English Test,739
+Positive,Korean Training,4787
+Neutral,Korean Training,14212
+Negative,Korean Training,5027
+Positive,Korean Test,1180
+Neutral,Korean Test,3583
+Negative,Korean Test,1243
